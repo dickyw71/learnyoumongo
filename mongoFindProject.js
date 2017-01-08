@@ -18,9 +18,6 @@ mongo.connect(url, function(err, db) {
             if(err) throw err;
 
             console.log(docs);
-        // docs.forEach(function(doc) {
-        //     console.log(doc);
-        // });
 
             db.close(function(err) {
                 if(err) throw err;

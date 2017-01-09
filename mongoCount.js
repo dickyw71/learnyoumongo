@@ -1,3 +1,7 @@
+/**
+ * Here we will learn how to count the number of documents that
+ * meet certain criteria.
+ */
 var mongo = require('mongodb').MongoClient;
 var url = 'mongodb://localhost:27017/learnyoumongo';
 var age = parseInt(process.argv[2], 10);

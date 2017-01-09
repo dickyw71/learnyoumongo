@@ -1,3 +1,8 @@
+/**
+ * You should connect to the database named learnyoumongo and insert
+ * a document into the docs collection.
+ */
+
 var mongo = require('mongodb').MongoClient;
 var url = 'mongodb://localhost:27017/learnyoumongo';
 var firstName = process.argv[2];

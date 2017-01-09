@@ -1,3 +1,6 @@
+/**
+ * Here we are going to update a document in the users collection.
+ */
 var mongo = require('mongodb').MongoClient;
 var dbName = process.argv[2];
 var url = 'mongodb://localhost:27017/' + dbName;

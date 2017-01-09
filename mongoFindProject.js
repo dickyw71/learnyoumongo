@@ -1,3 +1,10 @@
+/** 
+* Use the parrots collection to find all documents where age
+* is greater than the first argument passed to your script.
+* The difference from the last lesson will be that we only want the
+* name and age properties.
+*/
+
 var mongo = require('mongodb').MongoClient;
 var url = 'mongodb://localhost:27017/learnyoumongo';
 var age = parseInt(process.argv[2], 10);

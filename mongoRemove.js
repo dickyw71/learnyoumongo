@@ -1,3 +1,6 @@
+/**
+ * This lesson involves removing a document with the given _id.
+ */
 var mongo = require('mongodb').MongoClient;
 var _db= process.argv[2];
 var _collection = process.argv[3];
